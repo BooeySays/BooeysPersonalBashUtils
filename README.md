@@ -18,3 +18,12 @@ So I made a bunch of scripts for myself. I made things like:
 
 3. I often get asked Linux/Android related questions. How do I do this, that, etc, etc. I don't handle dealing with idiots too good. So instead of walking them through something, I will just write up a script that will do everything for them. And if I get bored, to help everyone learn and understand what is going on, I will even write it so that the script will explain everything before doing anything. 
 
+**Anyways** (sorry, I got carried away with the side track there), long story short, I wrote a bunch of scripts.  
+
+Some are big, some small, and some are REALLY small, like 5 lines small. I am already sharing a few of the scripts. But onlt the ones that are big enough to have their own repos. Which left me with a bunch of other scripts. I still want to share them, but it would be silly to give them their own repo's, so I made this repo.... 
+... To share everything. 
+
+I don't exact know how I am going to do this yet, but I am still learning how to use git, so I think I will slowly add all the utils as I find the time to type them all up. I'll update this file as I add stuff too. 
+
+So until then, this will have to do. 
+
