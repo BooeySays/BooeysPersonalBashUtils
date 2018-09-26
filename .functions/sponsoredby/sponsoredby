@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Prints [ Sponsored by ] in the middle of the screen
+echo '';
+screenwidth=$(tput cols);
+SponsoredBy=$(echo -e "\e[37m[ \e[31mSponsored By\e[37m ]\e[m");
+StringLength=$(echo -e "$SponsoredBy" | wc -L);
+sMinm=$(expr "$screenwidth" \- "$StringLength");
+half=$(expr "$sMinm" \/ 2);
+tput cuf "$half"; echo -e "$SponsoredBy";
+unset screenwidth SponsoredBy sMinm half StringLength;
