@@ -1,0 +1,4 @@
+BOOEYSAYS='~/.booeysays';
+66Bins='~/.booeysays/bin';
+66Temps='~/.booeysays/tmp';
+66Backups='~/.booeysays/backups';

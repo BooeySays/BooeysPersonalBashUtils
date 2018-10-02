@@ -1,0 +1,3 @@
+if [ -f ~/.66mhz_aliases ]; then
+	. ~/.66mhz_aliases;
+fi

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -d ~/.booeysays ]; then
+	if [ -d ~/.booeysays/bin ]; then
+		echo "~/.booeysays/bin detected";
+	else
+		mkdir ~/.booeysays/bin;
+	fi
+else
+	mkdir ~/.booeysays;
+	mkdir ~/.booeysays/bin;
+	mkdir ~/.booeysays/tmp;
+	mkdir ~/.booeysays/backups;
+fi
+
+cat ./lines2cat >> ~/.66mhz_aliases

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+dirinfo(){
+builtin cd "$@";
+if [ -f ./.DIR.NFO ]; then
+	cat ./.DIR.NFO;
+else
+	echo -e "[DIR: $(dirs)]";
+fi
+ls;
+echo;
+}

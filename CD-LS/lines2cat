@@ -1,0 +1,5 @@
+if [ -f $66Bins/LS_after_CD.sh ]; then
+	. $66Bins/LS_after_CD.sh;
+fi
+
+alias cd='CDANDLS';
