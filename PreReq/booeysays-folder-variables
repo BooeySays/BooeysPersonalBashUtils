@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#	Script Desc:	Script will create variable for ~/.booeysays/bin, .../temp, .../.files and
+#			will creatwe all the folders.
+#
+# Install script for BooeysPersonalCLIBashUtils
+
+# Set variables for folders
+BOOEYSAYS=~/.booeysays
+BOOEYSBIN=~/.booeysays/bin
+BOOEYSTEMP=~/.booeysays/temp
+BOOEYSFILES=~/.booeysays/.files
+
+# mkdir -p folders
+mkdir -p $BOOEYSAYS
+mkdir -p $BOOEYSBIN
+mkdir -p $BOOEYSTEMP
+mkdir -p $BOOEYSFILES
+
+PATH=$BOOEYSBIN:$PATH
+
+
+
