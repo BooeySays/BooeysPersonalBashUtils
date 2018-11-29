@@ -1,10 +1,10 @@
-# whattimeisit.sh
+# CurrentTime.sh
 
 ### FILE:
-whattimeisit.sh
+CurrentTime.sh
 
 ### LANG:
-BASH
+BASH - Bourne Again Shell 
 
 ### DESC:
 Returns the current time in 12hour format with numbers in white, colons in red, and either a yellow AM or a blue PM
@@ -12,6 +12,9 @@ Returns the current time in 12hour format with numbers in white, colons in red, 
 ### INST:
 1. Copy sh file to local bin directory
 2. execute:
-'''
-ehattimeisit
-'''
+
+```
+CurrentTime
+```
+### Notes
+I will make/add an install script later.
