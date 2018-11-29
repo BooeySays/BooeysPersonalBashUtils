@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo -e "Do you want to add a description to this file's information header?";
+echo;
+read -p '[Y/n] : ' -n 1 -r AddDesc;
+
+if [ "$AddDesc" != N|n ]; then
+read -p 'Please enter the description: ' -r ttDESC;
+else
+ttDESC="\e[05;36;45mTBD\e[m";
+fi
+
+

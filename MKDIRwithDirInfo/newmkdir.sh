@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir(){
-builtin mkdir "$@";
+mkdir -p "$@";
 builtin cd "$@";
 echo -e "#\tNAME:\t$@" >> ./.dirnfo;
 echo 'Description (What is in this directory?)';

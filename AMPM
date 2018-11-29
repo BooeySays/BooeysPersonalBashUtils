@@ -1,0 +1,9 @@
+#!/bin/bash
+
+AMPM(){
+if [expr "$(date +"%H")" < "12" ]; then
+	echo -e -n "\e[01;33mAM\e[m";
+else
+	echo -e -n "\e[01;34mPM\e[m";
+fi
+}

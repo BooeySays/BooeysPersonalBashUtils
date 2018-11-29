@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "DIR.NFO" | toilet --metal -f wideterm -F border;
+echo;
+echo -e -n $(echo "FILE" | toilet --metal -f wideterm); echo -e "  .DIR.NFO";
+echo -e -n $(echo "LANG" | toilet --metal -f wideterm); echo -e "  bash/sh";
+echo -e -n $(echo "FILE" | toilet --metal -f wideterm); echo -e "  "$DIRNFOFILE"";
+echo -e -n $(echo "FILE" | toilet --metal -f wideterm); echo -e "  "$DIRNFOFILE"";
+
+echo -e $(echo "FILE" | toilet --metal -f wideterm); echo -e "\t.DIR.NFO";
+echo -e -n $(echo "LANG" | toilet --metal -f wideterm); echo -e "  bash/sh";
+echo -e "\t  FileName\r"; echo -e -n $(echo "FILE" | toilet --metal -f 
+wideterm); 
+
+echo -e -n $(echo "FILE" | toilet --metal -f wideterm); echo -e "  "$DIRNFOFILE"";
+

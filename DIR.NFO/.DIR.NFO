@@ -1,0 +1,9 @@
+DIRNAME="$@";
+builtin mkdir "$@";
+touch ./$DIRNAME/.DIR.NFO;
+
+echo 'DINFO=$(echo; echo -e "	[01;250;46m DIRECTORY [m ";echo -e "	\e[01;33m$DIRNAME\e[m";echo;) >> ./"$DIRNAME/.DIR.NFO;
+echo 'echo $DINFO | toilet -f term -F border' >> ./"$DIRNAME/.DIR.NFO;
+echo 'DDETS=$(echo -e "	[01;250;44m DETAILS [m ";echo -e "	$DIRDETAILS";) >> ./"$DIRNAME/.DIR.NFO;
+echo 'echo $DDETS | toilet -f term -F border >> ./"$DIRNAME/.DIR.NFO;
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+unset ScreensWidth TitlesWidth dirtitle;
+[30;43mDIR:[m /DIR.NFO/
+
+[37;46mDESC:[m HHFDJH
+

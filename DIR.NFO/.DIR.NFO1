@@ -1,0 +1,9 @@
+#!/bin/bash
+
+dirtitle=$(echo "DIR: DIR.NFO" | toilet --metal -F border -f wideterm);
+
+ScreensWidth=$(tput cols);
+echo $ScreensWidth;
+TitlesWidth=$($dirtitle | wc -L); 
+echo $TitlesWidth;
+

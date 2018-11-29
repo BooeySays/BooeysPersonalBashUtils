@@ -1,0 +1,25 @@
+#!/bin/bash
+
+dirtitle=$(echo "DIR: DIR.NFO" | toilet --metal -F border -f wideterm);
+
+ScreensWidth=$(tput cols);
+echo $ScreensWidth;
+TitlesWidth=$($dirtitle | wc -L); 
+echo $TitlesWidth;
+
+unset ScreensWidth TitlesWidth dirtitle;
+[37;46mＤｉｒｅｃｔｏｒｙ[m
+~/Gits/2-BooeysPersonalBashUtils/DIR.NFO
+
+[37;46mＦｉｌｅｎａｍｅ[m
+tesr
+
+[37;46mＬａｎｇｕａｇｅ[m
+bash
+
+[37;46mＤｅｓｃｒｉｐｔｉｏｎ[m
+fdhfd
+
+[37;46mＩｎｓｔａｌｌ  ／  Ｓｅｔｕｐ[m
+gsgh
+
