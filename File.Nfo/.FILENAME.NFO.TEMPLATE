@@ -1,0 +1,6 @@
+	Date:	$(date)
+	File:	"$ftFILE"
+	Type:	"$ftTYPE"
+	Desc:	"$ftDESC"
+	
+

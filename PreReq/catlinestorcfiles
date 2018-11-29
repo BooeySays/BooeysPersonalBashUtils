@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "if [ -f ~/.bashrc ]; then 
+	echo "if [ -f ~/.66mhz_aliases ]; then" >> ~/.bashrc
+	echo "	. ~/.66mhz_aliases;" >> ~/.bashrc
+	echo "fi" >> ~/.bashrc

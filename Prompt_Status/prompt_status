@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# prints prompt status
+prompt_status() { local e=$?; echo -e "$e"; }
